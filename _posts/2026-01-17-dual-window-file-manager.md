@@ -42,12 +42,55 @@ tags: [python, git, 文件管理, 项目]
 ### 1. Git 仓库初始化
 
 ```bash
-# 初始化仓库
 git init
+```
 
-# 配置用户信息
-git config --global user.name "kevinchen202008-cmyk"
-git config --global user.email "kevin.chen202008@gmail.com"
+在本地创建了一个新的 Git 仓库，用于管理项目代码。
 
-# 查看配置
-git config --list
+### 2. 项目结构设计
+
+确定了项目的基本目录结构：
+
+```
+local_file_manager/
+├── docs/            # 文档和使用指南
+├── src/             # 源代码
+│   ├── __init__.py
+│   ├── main.py      # 主程序入口
+│   └── ...          # 其他模块
+└── README.md        # 项目说明文件
+```
+
+### 3. 第一个窗口
+
+使用 Tkinter 创建了程序的主窗口：
+
+```python
+import tkinter as tk
+
+root = tk.Tk()
+root.title("双窗口文件管理程序")
+
+# TODO: 添加菜单、工具栏、状态栏等组件
+
+root.mainloop()
+```
+
+接下来将继续完善界面和功能。
+
+## 更新进展
+
+### 本地双窗口文件管理程序
+
+我们很高兴地宣布，本地双窗口文件管理程序的 v1.0 版本已完成！所有核心功能已实现，程序已准备就绪。以下是一些主要功能：
+
+- **双窗口布局**：左右两个独立文件浏览面板，支持对比查看。
+- **文件操作**：支持复制、移动、删除文件和文件夹，批量操作选中的多个文件。
+- **用户界面**：提供路径导航、文件列表、状态栏等功能。
+
+### 最新更新
+
+- **文档更新**：在 docs 文件夹中添加了项目博客，详细介绍了项目的架构和使用指南。
+- **功能增强**：更新了文件对比功能，支持指定文件对比和批量同名文件对比。
+
+有关更多信息，请访问 [GitHub 项目页面](https://github.com/kevinchen202008-cmyk/Local-dual-window-file-management-program)。
