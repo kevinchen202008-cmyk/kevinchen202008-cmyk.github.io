@@ -63,7 +63,7 @@ analytics:
   google:
     id: # fill in your Google Analytics ID
   goatcounter:
-    id: # fill in your GoatCounter ID
+    id: kevinchen # fill in your GoatCounter ID
   umami:
     id: # fill in your Umami ID
     domain: # fill in your Umami domain
@@ -77,9 +77,9 @@ analytics:
 
 # Page views settings
 # 页面浏览量统计配置
-# 选项：'goatcounter' (需要注册) 或 'busuanzi' (不蒜子，无需注册，已启用)
+# 选项：'goatcounter' (已配置，稳定可靠) 或 'busuanzi' (不蒜子，无需注册，但 GitHub Pages 不支持自定义插件)
 pageviews:
-  provider: busuanzi # [goatcounter | busuanzi]
+  provider: goatcounter # [goatcounter | busuanzi]
 
 # Prefer color scheme setting.
 #
