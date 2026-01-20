@@ -131,14 +131,14 @@ comments:
   # 获取配置：访问 https://giscus.app，输入仓库信息即可获取以下参数
   giscus:
     repo: kevinchen202008-cmyk/kevinchen202008-cmyk.github.io # <gh-username>/<repo>
-    repo_id: # 从 giscus.app 获取
-    category: # 从 giscus.app 获取
-    category_id: # 从 giscus.app 获取
-    mapping: pathname # optional, default to 'pathname'
-    strict: "0" # optional, default to '0'
-    input_position: bottom # optional, default to 'bottom'
-    lang: zh-CN # optional, default to the value of `site.lang`
-    reactions_enabled: "1" # optional, default to the value of `1`
+    repo_id: R_kgDOQ7sq4Q
+    category: Announcements
+    category_id: DIC_kwDOQ7sq4c4C1LpC
+    mapping: pathname # 对应 data-mapping="pathname"
+    strict: "0" # 对应 data-strict="0"
+    input_position: bottom # 对应 data-input-position="bottom"
+    lang: zh-CN # 对应 data-lang="zh-CN"
+    reactions_enabled: "1" # 对应 data-reactions-enabled="1"
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
