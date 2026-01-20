@@ -1,0 +1,44 @@
+/* Giscus 自定义浅色块主题（方案 B） */
+:root {
+  /* 边框和背景整体变浅，接近 GitHub 风格 */
+  --color-border-default: #e5e7eb;
+  --color-border-muted: #f3f4f6;
+  --color-canvas-default: #ffffff;
+  --color-canvas-subtle: #f9fafb;
+  --color-neutral-muted: rgba(110, 118, 129, 0.15);
+  --color-accent-fg: #0969da;
+}
+
+/* 单条评论采用浅色块卡片风格 */
+.gsc-comment {
+  border: none !important;
+  background-color: #f9fafb !important;
+  border-radius: 8px !important;
+  padding: 12px 14px !important;
+  margin-bottom: 12px !important;
+}
+
+/* 子回复稍微缩进，边界更柔和 */
+.gsc-replies {
+  border-left: 2px solid #e5e7eb !important;
+  margin-left: 10px !important;
+  padding-left: 10px !important;
+}
+
+/* 评论输入框背景更柔和 */
+.gsc-comment-box-textarea {
+  background-color: #ffffff !important;
+  border-radius: 6px !important;
+  border-color: #e1e4e8 !important;
+}
+
+{
+  "cells": [],
+  "metadata": {
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 2
+}
